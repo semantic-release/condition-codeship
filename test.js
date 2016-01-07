@@ -68,5 +68,19 @@ test('raise errors in codeship environment', function (t) {
     })
   })
 
+  t.test('not running on tags', function (tt) {
+    tt.plan(2)
+    condition({}, {
+      env: {
+        CI_NAME: 'codeship',
+        CI_BRANCH: 'v1.0.0'
+      },
+      options: {}
+    }, function (err) {
+      tt.ok(err instanceof SRError)
+      tt.is(err.code, 'EGITTAG')
+    })
+  })
+
   t.end()
 })
