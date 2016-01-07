@@ -30,7 +30,8 @@
     "access": "public"
   },
   "release": {
-    "branch": "master"
+    "branch": "master",
+    "verifyConditions": "./index.js"
   },
   "repository": {
     "type": "git",
