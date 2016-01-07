@@ -6,7 +6,8 @@
     "url": "https://github.com/semantic-release/condition-codeship/issues"
   },
   "dependencies": {
-    "@semantic-release/error": "^1.0.0"
+    "@semantic-release/error": "^1.0.0",
+    "semver": "^5.1.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
