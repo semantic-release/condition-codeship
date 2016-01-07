@@ -1,46 +1,41 @@
 {
-  "name": "@semantic-release/condition-travis",
-  "description": "make sure things only the right builds on travis get published",
-  "version": "0.0.0-placeholder",
+  "name": "@semantic-release/condition-codeship",
+  "description": "make sure only the right builds on codeship get to publish",
   "author": "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
   "bugs": {
-    "url": "https://github.com/semantic-release/condition-travis/issues"
+    "url": "https://github.com/semantic-release/condition-codeship/issues"
   },
   "dependencies": {
-    "@semantic-release/error": "^1.0.0",
-    "semver": "^5.0.3",
-    "travis-after-all": "^1.3.0"
+    "@semantic-release/error": "^1.0.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
     "nyc": "^5.0.0",
     "proxyquire": "^1.7.1",
-    "semantic-release": "^6.0.3",
+    "semantic-release": "^4.3.5",
     "standard": "^5.1.0",
     "tap": "^5.0.0"
   },
   "files": [
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/condition-travis#readme",
+  "homepage": "https://github.com/semantic-release/condition-codeship#readme",
   "keywords": [
     "publish",
     "release",
     "semantic-release",
-    "travis",
-    "travis-ci"
+    "codeship"
   ],
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "tag": "next"
+    "access": "public"
   },
   "release": {
-    "branch": "next"
+    "branch": "master"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/condition-travis.git"
+    "url": "https://github.com/semantic-release/condition-codeship.git"
   },
   "scripts": {
     "coverage": "nyc report",
