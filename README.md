@@ -1,5 +1,7 @@
 # semantic-release condition-codeship
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/semantic-release/condition-codeship.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/%40semantic-release%2Fcondition-codeship.svg)](http://badge.fury.io/js/%40semantic-release%2Fcondition-codeship)
 [![Codeship Status for semantic-release/condition-codeship](https://codeship.com/projects/d2b63650-9769-0133-c2b7-6aec7e338399/status?branch=master)](https://codeship.com/projects/125778)
 [![Coverage Status](https://coveralls.io/repos/semantic-release/condition-codeship/badge.svg?branch=master&service=github)](https://coveralls.io/github/semantic-release/condition-codeship?branch=master)
