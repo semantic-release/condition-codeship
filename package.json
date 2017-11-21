@@ -6,15 +6,15 @@
     "url": "https://github.com/semantic-release/condition-codeship/issues"
   },
   "dependencies": {
-    "@semantic-release/error": "^1.0.0",
+    "@semantic-release/error": "^2.1.0",
     "semver": "^5.1.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "nyc": "^7.0.0",
-    "semantic-release": "^6.0.3",
-    "standard": "^8.0.0",
-    "tap": "^6.2.0"
+    "coveralls": "^3.0.0",
+    "nyc": "^11.3.0",
+    "semantic-release": "^8.2.0",
+    "standard": "^10.0.3",
+    "tap": "^10.7.3"
   },
   "files": [
     "index.js"
