@@ -14,7 +14,7 @@
     "nyc": "^11.4.1",
     "semantic-release": "^6.0.3",
     "standard": "^8.0.0",
-    "tap": "^8.0.0"
+    "tap": "^11.0.1"
   },
   "files": [
     "index.js"
